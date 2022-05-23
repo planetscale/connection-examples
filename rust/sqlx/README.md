@@ -1,6 +1,6 @@
-# Connecting to PlanetScale from Rust with mysql-async
+# Connecting to PlanetScale from Rust with sqlx
 
-This example demonstrates how to connect a Rust application to a PlanetScale database using [mysql_async](mysql-async-example/src/main.rs).
+These examples demonstrate how  [sqlx](sqlx-example/src/main.rs) &mdash; Connect using the [`sqlx` pure Rust SQL crate](https://docs.rs/sqlx/latest/sqlx/).
 
 Follow the instructions below to find and insert your PlanetScale credentials.
 
@@ -15,13 +15,13 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 ## Connecting your database
 
-1. Add the `mysql_async` and `tokio` dependencies to your [`Cargo.toml` file](https://github.com/planetscale/examples/blob/main/rust/mysql-async-example/Cargo.toml):
+1. Add the `sqlx` and `async-std` dependencies to your [`Cargo.toml` file](https://github.com/planetscale/examples/blob/main/rust/sqlx-example/Cargo.toml):
 ```rust
 mysql_async = "*"
 tokio = { version = "1.0", features = ["rt-multi-thread", "macros", "time"] }
 ```
-2. Copy the contents of [`mysql-async-example/src/main.rs`](https://github.com/planetscale/examples/blob/main/rust/mysql-async-example/src/main.rs) into your connection file.
-3. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section.
+1. Copy the contents of [`rust/sqlx-example/src/main.rs`](https://github.com/planetscale/examples/blob/main/rust/sqlx-example/src/main.rs) into your connection file.
+2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section.
 
 ## More resources
 
