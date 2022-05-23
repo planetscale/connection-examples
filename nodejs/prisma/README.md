@@ -15,7 +15,7 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 ## Connecting your database
 
-1. Open your `schema.prisma` file and replace `datasource db {}` with the code in our [`schema.prisma` example file](https://github.com/planetscale/examples/blob/main/nodejs/prisma/schema.prisma).
+1. Open your `schema.prisma` file and replace `datasource db {}` with the code in our [`schema.prisma` example file](https://github.com/planetscale/connection-examples/blob/main/nodejs/prisma/schema.prisma).
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values. We encourage you to move these placeholder values into your `.env` file.
 
 ## More resources

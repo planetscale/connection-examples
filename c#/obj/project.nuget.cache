@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "VGX80lZcKcYVI3DyZf5vr8+0lmPq+/vVvq6Vy4uVp1lKyhnzxm7b+h0GGl9wnrIaid+UuON9i7GIFkF4m+/tWA==",
   "success": true,
-  "projectFilePath": "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj",
+  "projectFilePath": "/Users/dirkjan/code/planetscale/connection-examples/c#/c#.csproj",
   "expectedPackageFiles": [
     "/Users/dirkjan/.nuget/packages/bouncycastle.netcore/1.8.5/bouncycastle.netcore.1.8.5.nupkg.sha512",
     "/Users/dirkjan/.nuget/packages/google.protobuf/3.14.0/google.protobuf.3.14.0.nupkg.sha512",

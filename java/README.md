@@ -15,7 +15,7 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 ## Connecting your database
 
-1. Copy the contents of [`java/src/main/java/com/planetscale/example/mysql.java`](https://github.com/planetscale/examples/blob/main/java/src/main/java/com/planetscale/example/mysql.java) into your connection file.
+1. Copy the contents of [`java/src/main/java/com/planetscale/example/mysql.java`](https://github.com/planetscale/connection-examples/blob/main/java/src/main/java/com/planetscale/example/mysql.java) into your connection file.
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section.
 
 ## More resources

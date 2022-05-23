@@ -15,7 +15,7 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 ## Connecting your database
 
-1. Copy the contents of [`rails/database.yml`](https://github.com/planetscale/examples/blob/main/ruby/rails/database.yml) into your connection file.
+1. Copy the contents of [`rails/database.yml`](https://github.com/planetscale/connection-examples/blob/main/ruby/rails/database.yml) into your connection file.
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section. We encourage you to move these placeholder values into your `.env` file.
 3. To ensure a secure connection, you **must** fill in the SSL certificate path. This is the value for `sslca`.
 

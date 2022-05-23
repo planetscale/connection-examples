@@ -15,8 +15,8 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 ## Connecting your database
 
-1. Add the `go-sql-driver/mysql` dependency to your [`go.mod` file](https://github.com/planetscale/examples/blob/main/go/go.mod). 
-2. Copy the contents of [`example.go`](https://github.com/planetscale/examples/blob/main/go/example.go) into your connection file.
+1. Add the `go-sql-driver/mysql` dependency to your [`go.mod` file](https://github.com/planetscale/connection-examples/blob/main/go/go.mod). 
+2. Copy the contents of [`example.go`](https://github.com/planetscale/connection-examples/blob/main/go/example.go) into your connection file.
 3. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section. We encourage you to move these placeholder values into your local environment variables file.
 4. (Optional) PlanetScale does not support [foreign key constraints](https://docs.planetscale.com/learn/operating-without-foreign-key-constraints). If you're using GORM, you'll need to disable foreign key constraints in your connection file:
 

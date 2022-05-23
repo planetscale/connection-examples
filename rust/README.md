@@ -23,31 +23,31 @@ To connect, find the method you're connecting with below and follow the instruct
 
 ### Option 1: `mysql`
 
-1. Add the `mysql` dependency to your [`Cargo.toml` file](https://github.com/planetscale/examples/blob/main/rust/mysql-example/Cargo.toml):
+1. Add the `mysql` dependency to your [`Cargo.toml` file](https://github.com/planetscale/connection-examples/blob/main/rust/mysql-example/Cargo.toml):
 ```rust
 mysql = "*"
 ```
-2. Copy the contents of [`main.rs`](https://github.com/planetscale/examples/blob/main/rust/mysql-example/src/main.rs) into your connection file.
+2. Copy the contents of [`main.rs`](https://github.com/planetscale/connection-examples/blob/main/rust/mysql-example/src/main.rs) into your connection file.
 3. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section.
 
 ### Option 2: `mysql_async`
 
-1. Add the `mysql_async` and `tokio` dependencies to your [`Cargo.toml` file](https://github.com/planetscale/examples/blob/main/rust/mysql-async-example/Cargo.toml):
+1. Add the `mysql_async` and `tokio` dependencies to your [`Cargo.toml` file](https://github.com/planetscale/connection-examples/blob/main/rust/mysql-async-example/Cargo.toml):
 ```rust
 mysql_async = "*"
 tokio = { version = "1.0", features = ["rt-multi-thread", "macros", "time"] }
 ```
-2. Copy the contents of [`mysql-async-example/src/main.rs`](https://github.com/planetscale/examples/blob/main/rust/mysql-async-example/src/main.rs) into your connection file.
+2. Copy the contents of [`mysql-async-example/src/main.rs`](https://github.com/planetscale/connection-examples/blob/main/rust/mysql-async-example/src/main.rs) into your connection file.
 3. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section.
 
 ### Option 3: `sqlx`
 
-1. Add the `sqlx` and `async-std` dependencies to your [`Cargo.toml` file](https://github.com/planetscale/examples/blob/main/rust/sqlx-example/Cargo.toml):
+1. Add the `sqlx` and `async-std` dependencies to your [`Cargo.toml` file](https://github.com/planetscale/connection-examples/blob/main/rust/sqlx-example/Cargo.toml):
 ```rust
 mysql_async = "*"
 tokio = { version = "1.0", features = ["rt-multi-thread", "macros", "time"] }
 ```
-1. Copy the contents of [`rust/sqlx-example/src/main.rs`](https://github.com/planetscale/examples/blob/main/rust/sqlx-example/src/main.rs) into your connection file.
+1. Copy the contents of [`rust/sqlx-example/src/main.rs`](https://github.com/planetscale/connection-examples/blob/main/rust/sqlx-example/src/main.rs) into your connection file.
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section.
 
 ## More resources
