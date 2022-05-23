@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj": {}
+    "/Users/dirkjan/code/planetscale/connection-examples/c#/c#.csproj": {}
   },
   "projects": {
-    "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj": {
+    "/Users/dirkjan/code/planetscale/connection-examples/c#/c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj",
+        "projectUniqueName": "/Users/dirkjan/code/planetscale/connection-examples/c#/c#.csproj",
         "projectName": "c#",
-        "projectPath": "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj",
+        "projectPath": "/Users/dirkjan/code/planetscale/connection-examples/c#/c#.csproj",
         "packagesPath": "/Users/dirkjan/.nuget/packages/",
-        "outputPath": "/Users/dirkjan/code/planetscale/examples/c#/obj/",
+        "outputPath": "/Users/dirkjan/code/planetscale/connection-examples/c#/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dirkjan/.nuget/NuGet/NuGet.Config"

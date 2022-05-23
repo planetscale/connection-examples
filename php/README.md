@@ -2,8 +2,8 @@
 
 These examples demonstrate how to connect a PHP application to a PlanetScale database using two different methods:
 
-- [PDO](https://github.com/planetscale/examples/blob/main/php/pdo.php) &mdash; Connect using the [PHP PDO class](https://www.php.net/manual/en/class.pdo.php)
-- [MySQLi](https://github.com/planetscale/examples/blob/main/php/mysqli.php) &mdash; Connect using the [PHP `mysqli` extension](https://www.php.net/manual/en/book.mysqli.php)
+- [PDO](https://github.com/planetscale/connection-examples/blob/main/php/pdo.php) &mdash; Connect using the [PHP PDO class](https://www.php.net/manual/en/class.pdo.php)
+- [MySQLi](https://github.com/planetscale/connection-examples/blob/main/php/mysqli.php) &mdash; Connect using the [PHP `mysqli` extension](https://www.php.net/manual/en/book.mysqli.php)
 
 Follow the instructions below to find and insert your PlanetScale credentials.
 
@@ -20,8 +20,8 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 1. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values. We encourage you to move these placeholder values into your `.env` file.
 2. To ensure a secure connection, you **must** fill in the SSL certificate path.
-   - [**PDO option**](https://github.com/planetscale/examples/blob/main/php/pdo.php): This is the `PDO::MYSQL_ATTR_SSL_CA` value.
-   - [**MySQLi option**](https://github.com/planetscale/examples/blob/main/php/mysqli.php): This is the third parameter in the `ssl_set()` method.
+   - [**PDO option**](https://github.com/planetscale/connection-examples/blob/main/php/pdo.php): This is the `PDO::MYSQL_ATTR_SSL_CA` value.
+   - [**MySQLi option**](https://github.com/planetscale/connection-examples/blob/main/php/mysqli.php): This is the third parameter in the `ssl_set()` method.
 
 This path depends on your system, so you need to paste in the appropriate value.
 

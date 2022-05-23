@@ -2,8 +2,8 @@
 
 These examples demonstrate how to connect a Node application to a PlanetScale database using two different methods:
 
-- [Node.js](https://github.com/planetscale/examples/blob/main/nodejs/mysql.js) &mdash; [`mysql2` package](https://github.com/sidorares/node-mysql2)
-- [Prisma + Node.js](https://github.com/planetscale/examples/tree/main/nodejs/prisma)
+- [Node.js](https://github.com/planetscale/connection-examples/blob/main/nodejs/mysql.js) &mdash; [`mysql2` package](https://github.com/sidorares/node-mysql2)
+- [Prisma + Node.js](https://github.com/planetscale/connection-examples/tree/main/nodejs/prisma)
  
 Follow the instructions below to find and insert your PlanetScale credentials.
 
@@ -22,12 +22,12 @@ If you're just connecting a Node application, proceed with Option 1. If you're u
 
 ### Option 1: Node.js
 
-1. Copy the connection information from the [`mysql.js` file](https://github.com/planetscale/examples/blob/main/nodejs/mysql.js) into your application.
+1. Copy the connection information from the [`mysql.js` file](https://github.com/planetscale/connection-examples/blob/main/nodejs/mysql.js) into your application.
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section. We encourage you to move these placeholder values into your `.env` file.
 
 ### Option 2: Prisma
 
-1. Open your `schema.prisma` file and replace `datasource db {}` with the code in our [`schema.prisma` example file](https://github.com/planetscale/examples/blob/main/nodejs/prisma/schema.prisma).
+1. Open your `schema.prisma` file and replace `datasource db {}` with the code in our [`schema.prisma` example file](https://github.com/planetscale/connection-examples/blob/main/nodejs/prisma/schema.prisma).
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values. We encourage you to move these placeholder values into your `.env` file.
 
 ## More resources

@@ -2,8 +2,8 @@
 
 These examples demonstrate how to connect a Ruby application to a PlanetScale database using two different methods:
 
-- [Rails](https://github.com/planetscale/examples/tree/main/ruby/rails) &mdash; Connect a Rails application to PlanetScale
-- [`mysql2` gem](https://github.com/planetscale/examples/blob/main/ruby/mysql.rb) &mdash; Connect a Ruby application to PlanetScale using the [`mysql2` gem](https://github.com/brianmario/mysql2).
+- [Rails](https://github.com/planetscale/connection-examples/tree/main/ruby/rails) &mdash; Connect a Rails application to PlanetScale
+- [`mysql2` gem](https://github.com/planetscale/connection-examples/blob/main/ruby/mysql.rb) &mdash; Connect a Ruby application to PlanetScale using the [`mysql2` gem](https://github.com/brianmario/mysql2).
 
 Follow the instructions below to find and insert your PlanetScale credentials.
 
@@ -22,7 +22,7 @@ To connect, find the method you're connecting with below and follow the instruct
 
 ### Option 1: Rails
 
-1. Copy the contents of [`rails/database.yml`](https://github.com/planetscale/examples/blob/main/ruby/rails/database.yml) into your connection file.
+1. Copy the contents of [`rails/database.yml`](https://github.com/planetscale/connection-examples/blob/main/ruby/rails/database.yml) into your connection file.
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section. We encourage you to move these placeholder values into your `.env` file.
 3. To ensure a secure connection, you **must** fill in the SSL certificate path. This is the value for `sslca`.
 
@@ -36,7 +36,7 @@ You can find configuration information for your system in our [Secure connection
 ```ruby
 gem "mysql2"
 ```
-1. Copy the contents of [`mysql.rb`](https://github.com/planetscale/examples/blob/main/ruby/mysql.rb) into your connection file.
+1. Copy the contents of [`mysql.rb`](https://github.com/planetscale/connection-examples/blob/main/ruby/mysql.rb) into your connection file.
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section. We encourage you to move these placeholder values into your local environment variables file.
 3. To ensure a secure connection, you **must** fill in the SSL certificate path. This is the value for `sslca`.
 
