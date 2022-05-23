@@ -1,4 +1,4 @@
-# Connecting to PlanetScale from Python
+# Connecting to PlanetScale from Django
 
 This example demonstrates how to connect a Django application to a PlanetScale database.
 

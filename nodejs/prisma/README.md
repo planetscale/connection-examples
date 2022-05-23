@@ -1,4 +1,4 @@
-# Connecting to PlanetScale from Node.js
+# Connecting to PlanetScale from Prisma
 
 This example demonstrates how to connect a Prisma + Node.js application to a PlanetScale database using two different methods:
 
