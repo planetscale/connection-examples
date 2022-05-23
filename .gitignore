@@ -8,3 +8,4 @@ bin/
 _build/
 *.swp
 .vscode
+.DS_Store
