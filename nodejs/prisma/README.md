@@ -9,7 +9,7 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 1. In the [PlanetScale dashboard](https://app.planetscale.com), select the database you want to connect to.
 2. Click "**Branches**" and select the branch you want to connect to.
 3. Click "**Connect**".
-4. Select "**Node.js**" or "**Prisma**" from the "**Connect from**" dropdown.
+4. Select "**Prisma**" from the "**Connect from**" dropdown.
 5. If the password is blurred, click "**New password**".
 6. Copy the credentials. You won't be able to see the password again.
 
