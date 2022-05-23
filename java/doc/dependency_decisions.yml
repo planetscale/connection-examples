@@ -1,0 +1,25 @@
+---
+- - :permit
+  - New BSD
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 23:18:18.578456000 Z
+- - :permit
+  - Common Public License Version 1.0
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 23:18:23.468778000 Z
+- - :permit
+  - The GNU General Public License, v2 with FOSS exception
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 23:18:28.375117000 Z
+- - :permit
+  - 3-Clause BSD License
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 23:18:32.897116000 Z

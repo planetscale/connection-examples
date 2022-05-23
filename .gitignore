@@ -1,0 +1,10 @@
+node_modules/
+dist/
+Gemfile.lock
+package-lock.json
+Cargo.lock
+target/
+bin/
+_build/
+*.swp
+.vscode

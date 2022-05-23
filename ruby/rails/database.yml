@@ -1,0 +1,9 @@
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: [DATABASE]
+  username: [USERNAME]
+  password: [PASSWORD]
+  host: [HOSTNAME]
+  ssl_mode: verify_identity
+  sslca: "/etc/ssl/cert.pem"

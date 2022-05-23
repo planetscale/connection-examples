@@ -1,0 +1,13 @@
+---
+- - :permit
+  - GNU General Public License (GPL)
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:32:57.923619000 Z
+- - :approve
+  - protobuf
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:36:47.310514000 Z

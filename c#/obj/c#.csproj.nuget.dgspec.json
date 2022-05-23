@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj": {}
+  },
+  "projects": {
+    "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj",
+        "projectName": "c#",
+        "projectPath": "/Users/dirkjan/code/planetscale/examples/c#/c#.csproj",
+        "packagesPath": "/Users/dirkjan/.nuget/packages/",
+        "outputPath": "/Users/dirkjan/code/planetscale/examples/c#/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dirkjan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/5.0.205/libexec/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

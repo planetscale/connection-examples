@@ -1,0 +1,33 @@
+name: Verify dependency licenses
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+jobs:
+  licensing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: erlef/setup-beam@v1
+        with:
+            otp-version: "22.2"
+            elixir-version: "1.9.4"
+      - run: sudo gem install license_finder bundler
+      - run: cd go && license_finder
+      - run: cd ruby && bundle install && license_finder
+      - run: cd nodejs && license_finder
+      - run: cd python && pip install -r requirements.txt && license_finder --python_version=3
+      - run: cd elixir/example && license_finder
+      - run: cd rust/mysql && license_finder
+      - run: cd rust/mysql-async && license_finder
+      - run: cd rust/sqlx && license_finder
+      - run: cd java && license_finder

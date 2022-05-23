@@ -1,0 +1,2 @@
+[requires]
+libmysqlclient/8.0.25

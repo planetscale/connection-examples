@@ -1,0 +1,61 @@
+---
+- - :permit
+  - MIT
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:41:26.478969000 Z
+- - :permit
+  - Apache 2.0
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:41:29.265567000 Z
+- - :permit
+  - ISC
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:44:24.969900000 Z
+- - :permit
+  - New BSD
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:44:28.439991000 Z
+- - :approve
+  - planetscale-mysql-example
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:44:36.949305000 Z
+- - :permit
+  - " Apache-2.0, MIT "
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:44:49.856184000 Z
+- - :approve
+  - unicode-bidi
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:59:06.703680000 Z
+- - :approve
+  - core-foundation-sys
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:59:11.874981000 Z
+- - :approve
+  - core-foundation
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:59:15.946891000 Z
+- - :approve
+  - planetscale-mysql-async-example
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 00:59:21.716902000 Z

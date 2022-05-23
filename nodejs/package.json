@@ -1,0 +1,9 @@
+{
+  "name": "planetscale-client",
+  "version": "1.0.0",
+  "description": "Example PlanetScale client",
+  "main": "mysql.js",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

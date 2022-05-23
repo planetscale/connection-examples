@@ -1,0 +1,31 @@
+---
+- - :approve
+  - libmysqlclient
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 01:31:39.775083000 Z
+- - :approve
+  - lz4
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 01:32:03.628163000 Z
+- - :approve
+  - openssl
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 01:32:11.223729000 Z
+- - :approve
+  - zstd
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 01:32:27.577371000 Z
+- - :approve
+  - zlib
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-04-22 01:32:33.543919000 Z

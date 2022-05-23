@@ -1,0 +1,4 @@
+datasource db {
+  provider = "mysql"
+  url      = "mysql://[USERNAME]:[PASSWORD]@[HOSTNAME]:3306/[DATABASE]?sslaccept=strict"
+}
