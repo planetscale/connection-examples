@@ -37,6 +37,8 @@ You can find configuration information for your system in our [Secure connection
 
 ### Option 2: MySQLdb
 
+**Note**: If you're developing on Windows, we recommend using `mysql-connector-python` instead of `mysqlclient` as it is easier to enable SSL. 
+
 1. Install `mysqlclient`:
 ```bash
 pip install mysqlclient
