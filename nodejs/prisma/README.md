@@ -38,6 +38,9 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 - [Building a Next.js app with Netlify, NextAuth.js, Prisma, and a PlanetScale serverless database](https://planetscale.com/blog/nextjs-netlify-planetscale-starter-app)
 - [Introducing Prisma’s Data Platform PlanetScale integration](https://planetscale.com/blog/planetscale-mysql-database-on-prisma-platform)
 
+**Prisma videos**
+- [Developer-owned databases: a new frontier? - Liz van Dijk I Prisma Day 2022](https://www.youtube.com/watch?v=HDclqWeYt5M)
+
 **Next steps**
 
 - Learn more about the [PlanetScale workflow](https://docs.planetscale.com/concepts/planetscale-workflow).
