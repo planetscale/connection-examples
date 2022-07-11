@@ -5,8 +5,7 @@ client = Mysql2::Client.new(
   username: "[USERNAME]",
   password: "[PASSWORD]",
   database: "[DATABASE]",
-  ssl_mode: :verify_identity,
-  sslca:    "/etc/ssl/certs/ca-certificates.crt"
+  ssl_mode: :verify_identity
 )
 
 puts "Successfully connected to PlanetScale!"
