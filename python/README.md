@@ -4,7 +4,7 @@ These examples demonstrate how to connect a Python application to a PlanetScale 
 
 - [Django](https://github.com/planetscale/connection-examples/blob/main/python/django) &mdash; Connect a Django application to PlanetScale
 - [`mysql-connector-python` driver](https://github.com/planetscale/connection-examples/blob/main/python/mysql-connector-python.py) &mdash; Connect a Python application to PlanetScale using [`mysql-connector-python`](https://dev.mysql.com/doc/connector-python/en).
-- [MySQLdb interface](https://github.com/planetscale/connection-examples/blob/main/python/mysql.py) &mdash; Connect a Python application to PlanetScale using the [MySQLdb interface](https://mysqlclient.readthedocs.io/user_guide.htmln).
+- [MySQLdb interface](https://github.com/planetscale/connection-examples/blob/main/python/mysql.py) &mdash; Connect a Python application to PlanetScale using the [MySQLdb interface](https://mysqlclient.readthedocs.io/user_guide.html).
 
 Follow the instructions below to find and insert your PlanetScale credentials.
 
