@@ -56,3 +56,5 @@ happy to help!
 ## License
 
 See [LICENSE](LICENSE)
+
+[![Check Links](https://github.com/planetscale/connection-examples/actions/workflows/links.yml/badge.svg)](https://github.com/planetscale/connection-examples/actions/workflows/links.yml)
