@@ -45,7 +45,7 @@ To learn how to use PlanetScale, please check out our
 ## Need help?
 
 If you're having trouble getting things to run or you find yourself mingling
-with obscure error messages, [get in touch with our Support team](https://planetscale.com/support) or [contact us on Twitter](https://twitter.com/planetscalehelp)! We're
+with obscure error messages, [get in touch with our Support team](https://support.planetscale.com/) or [contact us on Twitter](https://twitter.com/planetscalehelp)! We're
 happy to help!
 
 ## Further reading
@@ -56,5 +56,3 @@ happy to help!
 ## License
 
 See [LICENSE](LICENSE)
-
-[![Check Links](https://github.com/planetscale/connection-examples/actions/workflows/links.yml/badge.svg)](https://github.com/planetscale/connection-examples/actions/workflows/links.yml)
