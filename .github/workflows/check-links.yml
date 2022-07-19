@@ -1,4 +1,4 @@
-name: Link checking
+name: Check links
 
 on:
   pull_request:
