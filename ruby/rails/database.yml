@@ -6,4 +6,3 @@ production:
   password: [PASSWORD]
   host: [HOSTNAME]
   ssl_mode: verify_identity
-  sslca: "/etc/ssl/cert.pem"
