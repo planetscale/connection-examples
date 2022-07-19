@@ -1,6 +1,6 @@
 # Connecting to PlanetScale from Rust with sqlx
 
-These examples demonstrate how  [sqlx](sqlx/src/main.rs) &mdash; Connect using the [`sqlx` pure Rust SQL crate](https://docs.rs/sqlx/latest/sqlx/).
+These examples demonstrate how [sqlx](src/main.rs) &mdash; Connect using the [`sqlx` pure Rust SQL crate](https://docs.rs/sqlx/latest/sqlx/).
 
 Follow the instructions below to find and insert your PlanetScale credentials.
 

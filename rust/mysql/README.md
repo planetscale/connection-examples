@@ -1,6 +1,6 @@
 # Connecting to PlanetScale from Rust mysql
 
-This example demonstrates how to connect a Rust application to a PlanetScale database using [`mysql`](mysql/src/main.rs).
+This example demonstrates how to connect a Rust application to a PlanetScale database using [`mysql`](src/main.rs).
 
 Follow the instructions below to find and insert your PlanetScale credentials.
 
