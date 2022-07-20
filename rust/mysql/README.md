@@ -1,6 +1,6 @@
 # Connecting to PlanetScale from Rust mysql
 
-This example demonstrates how to connect a Rust application to a PlanetScale database using [`mysql`](mysql-example/src/main.rs).
+This example demonstrates how to connect a Rust application to a PlanetScale database using [`mysql`](src/main.rs).
 
 Follow the instructions below to find and insert your PlanetScale credentials.
 
@@ -15,11 +15,11 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 ## Connecting your database
 
-1. Add the `mysql` dependency to your [`Cargo.toml` file](https://github.com/planetscale/connection-examples/blob/main/rust/mysql-example/Cargo.toml):
+1. Add the `mysql` dependency to your [`Cargo.toml` file](https://github.com/planetscale/connection-examples/blob/main/rust/mysql/Cargo.toml):
 ```rust
 mysql = "*"
 ```
-2. Copy the contents of [`main.rs`](https://github.com/planetscale/connection-examples/blob/main/rust/mysql-example/src/main.rs) into your connection file.
+2. Copy the contents of [`main.rs`](https://github.com/planetscale/connection-examples/blob/main/rust/mysql/src/main.rs) into your connection file.
 3. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section.
 
 ## More resources
