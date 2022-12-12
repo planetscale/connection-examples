@@ -30,6 +30,11 @@ If you're just connecting a Node application, proceed with Option 1. If you're u
 1. Open your `schema.prisma` file and replace `datasource db {}` with the code in our [`schema.prisma` example file](https://github.com/planetscale/connection-examples/blob/main/nodejs/prisma/schema.prisma).
 2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values. We encourage you to move these placeholder values into your `.env` file.
 
+### Option 3: TypeORM
+
+1. TypeORM supports both the `mysql` and `mysql2` drivers. Open `src/data-source.ts` or your equivalent add a DataSource using the configuration in our [example](typeorm/data-source.ts).
+2. Replace the placeholders for `HOSTNAME`, `DATABASE`, `USERNAME`, and `PASSWORD` with the copied values from the previous section. We encourage you to move these placeholder values into your `.env` file.
+
 ## More resources
 
 **Express resources**
