@@ -65,7 +65,7 @@ You can find more configuration information in our [Secure connections documenta
 
 You can also use a configuration file and then reference that with the client.
 
-1. Add the following to your `.my.cnf` file: 
+1. Add the following to your `.my.cnf` file:
 
 ```
 [client_planetscale]
@@ -100,6 +100,6 @@ mysql -u [USERNAME] -h [HOSTNAME] -d [DATABASE] --password=[PASSWORD] --ssl-veri
 
 **Next steps**
 
-- Learn more about the [PlanetScale workflow](https://docs.planetscale.com/concepts/planetscale-workflow).
-- Learn how to [branch your PlanetScale database](https://docs.planetscale.com/concepts/branching) for development.
-- Learn how to ship schema changes to production with [deploy requests](https://docs.planetscale.com/concepts/deploy-requests).
+- Learn more about the [PlanetScale workflow](https://planetscale.com/docs/concepts/planetscale-workflow).
+- Learn how to [branch your PlanetScale database](https://planetscale.com/docs/concepts/branching) for development.
+- Learn how to ship schema changes to production with [deploy requests](https://planetscale.com/docs/concepts/deploy-requests).

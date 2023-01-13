@@ -47,11 +47,11 @@ You can find configuration information for your system in our [Secure connection
 ## More resources
 
 **Rails resources**
-- For more in-depth Rails instructions, check out the [Rails quickstart](https://docs.planetscale.com/tutorials/connect-rails-app).
-- You can learn how to automatically copy Rails migration data during deployment in our [Automatic Rails migrations documentation](https://docs.planetscale.com/tutorials/automatic-rails-migrations).
+- For more in-depth Rails instructions, check out the [Rails quickstart](https://planetscale.com/docs/tutorials/connect-rails-app).
+- You can learn how to automatically copy Rails migration data during deployment in our [Automatic Rails migrations documentation](https://planetscale.com/docs/tutorials/automatic-rails-migrations).
 
 **Next steps**
 
-- Learn more about the [PlanetScale workflow](https://docs.planetscale.com/concepts/planetscale-workflow).
-- Learn how to [branch your PlanetScale database](https://docs.planetscale.com/concepts/branching) for development.
-- Learn how to ship schema changes to production with [deploy requests](https://docs.planetscale.com/concepts/deploy-requests).
+- Learn more about the [PlanetScale workflow](https://planetscale.com/docs/concepts/planetscale-workflow).
+- Learn how to [branch your PlanetScale database](https://planetscale.com/docs/concepts/branching) for development.
+- Learn how to ship schema changes to production with [deploy requests](https://planetscale.com/docs/concepts/deploy-requests).

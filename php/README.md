@@ -63,9 +63,9 @@ You can find more configuration information in our [Secure connections documenta
 
 **PlanetScale with PHP**
 
-- For more in depth instructions, check out the [PHP quickstart](https://docs.planetscale.com/tutorials/connect-php-app) or the [sample PHP application](https://github.com/planetscale/php-example).
-- If you're looking for Laravel instructions, see the [Laravel quickstart](https://docs.planetscale.com/tutorials/connect-laravel-app) or the [sample Laravel application](https://github.com/planetscale/laravel-example).
-- If you're looking for Symfony instructions, see the [Symfony quickstart](https://docs.planetscale.com/tutorials/connect-symfony-app) or the [sample Symfony application](https://github.com/planetscale/symfony-example).
+- For more in depth instructions, check out the [PHP quickstart](https://planetscale.com/docs/tutorials/connect-php-app) or the [sample PHP application](https://github.com/planetscale/php-example).
+- If you're looking for Laravel instructions, see the [Laravel quickstart](https://planetscale.com/docs/tutorials/connect-laravel-app) or the [sample Laravel application](https://github.com/planetscale/laravel-example).
+- If you're looking for Symfony instructions, see the [Symfony quickstart](https://planetscale.com/docs/tutorials/connect-symfony-app) or the [sample Symfony application](https://github.com/planetscale/symfony-example).
 
 **PHP blog posts**
 - [Build a Laravel application with a MySQL (PlanetScale) database](https://planetscale.com/blog/build-a-laravel-application-with-a-mysql-database)
@@ -73,6 +73,6 @@ You can find more configuration information in our [Secure connections documenta
 
 **Next steps**
 
-- Learn more about the [PlanetScale workflow](https://docs.planetscale.com/concepts/planetscale-workflow).
-- Learn how to [branch your PlanetScale database](https://docs.planetscale.com/concepts/branching) for development.
-- Learn how to ship schema changes to production with [deploy requests](https://docs.planetscale.com/concepts/deploy-requests).
+- Learn more about the [PlanetScale workflow](https://planetscale.com/docs/concepts/planetscale-workflow).
+- Learn how to [branch your PlanetScale database](https://planetscale.com/docs/concepts/branching) for development.
+- Learn how to ship schema changes to production with [deploy requests](https://planetscale.com/docs/concepts/deploy-requests).

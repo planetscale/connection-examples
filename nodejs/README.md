@@ -4,7 +4,7 @@ These examples demonstrate how to connect a Node application to a PlanetScale da
 
 - [Node.js](https://github.com/planetscale/connection-examples/blob/main/nodejs/mysql.js) &mdash; [`mysql2` package](https://github.com/sidorares/node-mysql2)
 - [Prisma + Node.js](https://github.com/planetscale/connection-examples/tree/main/nodejs/prisma)
- 
+
 Follow the instructions below to find and insert your PlanetScale credentials.
 
 ## Getting the credentials
@@ -33,15 +33,15 @@ If you're just connecting a Node application, proceed with Option 1. If you're u
 ## More resources
 
 **Express resources**
-- For more in-depth Node.js instructions, check out the [Express quickstart](https://docs.planetscale.com/tutorials/connect-nodejs-app) or the [sample Express application](https://github.com/planetscale/express-example).
+- For more in-depth Node.js instructions, check out the [Express quickstart](https://planetscale.com/docs/tutorials/connect-nodejs-app) or the [sample Express application](https://github.com/planetscale/express-example).
 
 **Express blog posts**
 - [Create a Harry Potter API with Node.js/Express, MySQL, and PlanetScale](https://planetscale.com/blog/create-a-harry-potter-api-with-node-js-express-mysql-and-planetscale)
 
 **Prisma resources**
-- If you're looking for in-depth Prisma instructions, see the [Prisma quickstart](https://docs.planetscale.com/tutorials/prisma-quickstart).
-- To use the Prisma Data Platform integration, check out the [PlanetScale Prisma Data Platform documentation](https://docs.planetscale.com/tutorials/prisma-data-platform-integration).
-- See the [Automatic Prisma migrations documentation](https://docs.planetscale.com/tutorials/automatic-prisma-migrations) for information about automating Prisma migrations 
+- If you're looking for in-depth Prisma instructions, see the [Prisma quickstart](https://planetscale.com/docs/tutorials/prisma-quickstart).
+- To use the Prisma Data Platform integration, check out the [PlanetScale Prisma Data Platform documentation](https://planetscale.com/docs/tutorials/prisma-data-platform-integration).
+- See the [Automatic Prisma migrations documentation](https://planetscale.com/docs/tutorials/automatic-prisma-migrations) for information about automating Prisma migrations
 
 **Prisma blog posts**
 
@@ -55,6 +55,6 @@ If you're just connecting a Node application, proceed with Option 1. If you're u
 
 **Next steps**
 
-- Learn more about the [PlanetScale workflow](https://docs.planetscale.com/concepts/planetscale-workflow).
-- Learn how to [branch your PlanetScale database](https://docs.planetscale.com/concepts/branching) for development.
-- Learn how to ship schema changes to production with [deploy requests](https://docs.planetscale.com/concepts/deploy-requests).
+- Learn more about the [PlanetScale workflow](https://planetscale.com/docs/concepts/planetscale-workflow).
+- Learn how to [branch your PlanetScale database](https://planetscale.com/docs/concepts/branching) for development.
+- Learn how to ship schema changes to production with [deploy requests](https://planetscale.com/docs/concepts/deploy-requests).

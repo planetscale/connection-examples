@@ -40,7 +40,7 @@ repositories for:
 - [Vercel](https://github.com/planetscale/vercel-integration-example)
 
 To learn how to use PlanetScale, please check out our
-[documentation](https://docs.planetscale.com).
+[documentation](https://planetscale.com/docs).
 
 ## Need help?
 

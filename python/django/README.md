@@ -24,17 +24,17 @@ This path depends on your system, so you need to paste in the appropriate value.
 You can find configuration information for your system in our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration).
 
 4. You can update your [`settings.py` file](https://github.com/planetscale/connection-examples/blob/main/python/django/settings.py) to read from your connection file, as shown in our example.
-5. (Optional) If you're using Django's default migrations, you may run into issues while migrating, as PlanetScale doesn't support [foreign key constraints](https://docs.planetscale.com/learn/operating-without-foreign-key-constraints). We've created a [PlanetScale Django database wrapper](https://github.com/planetscale/django_psdb_engine.git) that you can pull into your project to disable foreign key constraints. 
+5. (Optional) If you're using Django's default migrations, you may run into issues while migrating, as PlanetScale doesn't support [foreign key constraints](https://planetscale.com/docs/learn/operating-without-foreign-key-constraints). We've created a [PlanetScale Django database wrapper](https://github.com/planetscale/django_psdb_engine.git) that you can pull into your project to disable foreign key constraints.
 
-For further implementation information, refer to the [custom database wrapper section of our Django quickstart](https://docs.planetscale.com/tutorials/connect-django-app#optional-%E2%80%94-bring-in-planetscale-custom-database-wrapper). 
+For further implementation information, refer to the [custom database wrapper section of our Django quickstart](https://planetscale.com/docs/tutorials/connect-django-app#optional-%E2%80%94-bring-in-planetscale-custom-database-wrapper).
 
 ## More resources
 
 **Django resources**
-- For more in-depth Django instructions, check out the [Django quickstart](https://docs.planetscale.com/tutorials/connect-django-app) or the [sample Django application](https://github.com/planetscale/django-example).
+- For more in-depth Django instructions, check out the [Django quickstart](https://planetscale.com/docs/tutorials/connect-django-app) or the [sample Django application](https://github.com/planetscale/django-example).
 
 **Next steps**
 
-- Learn more about the [PlanetScale workflow](https://docs.planetscale.com/concepts/planetscale-workflow).
-- Learn how to [branch your PlanetScale database](https://docs.planetscale.com/concepts/branching) for development.
-- Learn how to ship schema changes to production with [deploy requests](https://docs.planetscale.com/concepts/deploy-requests).
+- Learn more about the [PlanetScale workflow](https://planetscale.com/docs/concepts/planetscale-workflow).
+- Learn how to [branch your PlanetScale database](https://planetscale.com/docs/concepts/branching) for development.
+- Learn how to ship schema changes to production with [deploy requests](https://planetscale.com/docs/concepts/deploy-requests).
