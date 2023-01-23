@@ -59,7 +59,7 @@ Here are some of the paths for commonly used systems:
 /etc/ssl/ca-bundle.pem
 ```
 
-You can find more configuration information in our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration). If you're on Windows, refer to the "Windows" section of that doc.
+You can find more configuration information in our [Secure connections documentation](https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration). If you're on Windows, refer to the "Windows" section of that doc.
 
 ### Option 2: Configuration file
 
@@ -81,7 +81,7 @@ ssl_ca=/etc/ssl/certs/ca-certificates.crt
 
 This path depends on your system, so you need to paste in the appropriate value.
 
-You can find some common examples in **Step 2 of Option 1** above or see our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration) for more configuration information.
+You can find some common examples in **Step 2 of Option 1** above or see our [Secure connections documentation](https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration) for more configuration information.
 
 4. Use the following command to access the MySQL command line:
 ```bash

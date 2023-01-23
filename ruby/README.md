@@ -28,7 +28,7 @@ To connect, find the method you're connecting with below and follow the instruct
 
 This path depends on your system, so you need to paste in the appropriate value.
 
-You can find configuration information for your system in our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration).
+You can find configuration information for your system in our [Secure connections documentation](https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration).
 
 ### Option 2: `mysql2` for Ruby
 
@@ -42,7 +42,7 @@ gem "mysql2"
 
 This path depends on your system, so you need to paste in the appropriate value.
 
-You can find configuration information for your system in our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration).
+You can find configuration information for your system in our [Secure connections documentation](https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration).
 
 ## More resources
 
