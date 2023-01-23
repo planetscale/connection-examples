@@ -21,7 +21,7 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 This path depends on your system, so you need to paste in the appropriate value.
 
-You can find configuration information for your system in our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration).
+You can find configuration information for your system in our [Secure connections documentation](https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration).
 
 4. You can update your [`settings.py` file](https://github.com/planetscale/connection-examples/blob/main/python/django/settings.py) to read from your connection file, as shown in our example.
 5. (Optional) If you're using Django's default migrations, you may run into issues while migrating, as PlanetScale doesn't support [foreign key constraints](https://planetscale.com/docs/learn/operating-without-foreign-key-constraints). We've created a [PlanetScale Django database wrapper](https://github.com/planetscale/django_psdb_engine.git) that you can pull into your project to disable foreign key constraints.

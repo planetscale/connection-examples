@@ -57,7 +57,7 @@ Here are some of the paths for commonly used systems:
 /etc/ssl/ca-bundle.pem
 ```
 
-You can find more configuration information in our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration). If you're on Windows, refer to the "Windows" section of that doc.
+You can find more configuration information in our [Secure connections documentation](https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration). If you're on Windows, refer to the "Windows" section of that doc.
 
 ## More resources
 

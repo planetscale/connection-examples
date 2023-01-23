@@ -21,7 +21,7 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 
 This path depends on your system, so you need to paste in the appropriate value.
 
-You can find configuration information for your system in our [Secure connections documentation](/concepts/secure-connections#ca-root-configuration).
+You can find configuration information for your system in our [Secure connections documentation](https://planetscale.com/docs/concepts/secure-connections#ca-root-configuration).
 
 ## More resources
 
