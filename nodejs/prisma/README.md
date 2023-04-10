@@ -27,7 +27,7 @@ Follow the instructions below to find and insert your PlanetScale credentials.
 - [Create a Harry Potter API with Node.js/Express, MySQL, and PlanetScale](https://planetscale.com/blog/create-a-harry-potter-api-with-node-js-express-mysql-and-planetscale)
 
 **Prisma resources**
-- If you're looking for in-depth Prisma instructions, see the [Prisma quickstart]https://planetscale.com/docs/tutorials/prisma-quickstart).
+- If you're looking for in-depth Prisma instructions, see the [Prisma quickstart](https://planetscale.com/docs/tutorials/prisma-quickstart).
 - To use the Prisma Data Platform integration, check out the [PlanetScale Prisma Data Platform documentation](https://planetscale.com/docs/tutorials/prisma-data-platform-integration).
 - See the [Automatic Prisma migrations documentation](https://planetscale.com/docs/tutorials/automatic-prisma-migrations) for information about automating Prisma migrations
 
