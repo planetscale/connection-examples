@@ -1,5 +1,7 @@
 # Example client implementations to connect to PlanetScale
 
+> **Note:** These examples target [PlanetScale Vitess](https://vitess.io/) / MySQL-compatible databases and MySQL client libraries. PlanetScale also offers managed PostgreSQL; connect to Postgres databases with PostgreSQL clients and connection strings. For more information and examples, see the [PlanetScale Postgres documentation](https://planetscale.com/docs/postgres).
+
 This repository contains small example applications that connect to
 PlanetScale in different languages and frameworks.
 
